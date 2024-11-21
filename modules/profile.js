@@ -10,7 +10,7 @@ export function profileNice(){
 }
 
 export function profileBad(){
-    ui.Dom.profile.src = pathAngry[Math.floor(Math.random() * pathsHappy.length)];
+    ui.Dom.profile.src = pathAngry[Math.floor(Math.random() * pathAngry.length)];
 }
 
 export function ehlelProfile(){
