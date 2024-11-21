@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+#head1{
+    width: 80%;
+    font-size: 70px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    color: rgb(227, 208, 208);
+    font-family:sans-serif;
+    display: block;
+    flex-direction: row;
+}
+#head1 h3{
+    display: inline-block;
+    margin-right: 85px;
+}
+#head2{
+    width: 20%;
+}
+#head2 button{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    transition: ease 0.3s scale;
+}
+#head2 button:hover{
+    scale: 1.1;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#main{
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#section1{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* background-image: url(./zurag/conjuring1.jpg);
+background-repeat: no-repeat;
+background-size:cover; */
+#section2{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#ami{
+    font-size: 100px;
+}
+#uram{
+    font-size: 150px;
+    color: red;
+}
+#huree{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#haraal{
+    width: 100%;
+    height:234px;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition:  ease 0.3s scale;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#profile{
+    width: 50%;
+    height:234px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#dialog{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#haraal:hover{
+    scale: 1.1;
+}
+#ug{
+    font-size: 150px;
+    font-weight: bold;
+    padding: 30px;
+    border: 10px dotted black ;
+}
+#usegnuud{
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+}
+.clickable-letter {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    user-select: none;
+    transition: background-color 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clickable-letter:hover {
+    background-color: #000000;
+    color: white;
+    scale: 1.1;
+}
+
+#usegnuud{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
